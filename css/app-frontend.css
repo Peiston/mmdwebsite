@@ -38,7 +38,7 @@ bottom:0; background: rgba(0,0,0,.3); z-index: 3;}
 
 .card__primary{height: 400px; margin-bottom: 30px;}
 .card__primary__title{font-size: 18px; color: #5a5a5a; font-weight: bold;}
-.card__primary__subtitle{font-size: 15px; color: #5a5a5a;}
+.card__primary__subtitle{font-size: 15px; color: #00B0F0;}
 
 
 /* .card__secondary{background: #281dff;}
@@ -46,7 +46,7 @@ bottom:0; background: rgba(0,0,0,.3); z-index: 3;}
 
 .card__secondary{}
 .card__secondary__title{}
-.card__secondary__subtitle{color: #F00;}
+.card__secondary__subtitle{color: #00B0F0;}
 .card__secondary__text{}
 
 
