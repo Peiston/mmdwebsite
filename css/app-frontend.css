@@ -52,7 +52,7 @@ bottom:0; background: rgba(0,0,0,.3); z-index: 3;}
 
 .card__third{position: relative; margin-bottom: 30px; height: 300px;}
 .card__third .card-body{    display: flex;  align-items: center;}
-.card__third__ftimg{max-width: 50%; margin-bottom: 10px;}
+.card__third__ftimg{max-width: 50%; margin-bottom: 10px;     margin: 0 auto;}
 .card__third__overlay-data{padding:10px;position: absolute;background:#fff; left: 0; bottom:0; right:0; top: 0; opacity: 0; -webkit-transition: all .3s ease-in-out; -moz-transition: all .3s ease-in-out; -ms-transition: all .3s ease-in-out; -o-transition: all .3s ease-in-out;transition: all .3s ease-in-out;}
 
 .card__third:hover .card__third__overlay-data {opacity: 1;}

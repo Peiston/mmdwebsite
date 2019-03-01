@@ -353,7 +353,7 @@
           <div class="card card__third">
               <div class="card-body">
                   <img src="img/logo-3.png" class="img-fluid card__third__ftimg" alt="">
-                  <h5>Presupuestador LED con ROI</h5>
+                  <!-- <h5>Presupuestador LED con ROI</h5> -->
                   <!-- <p>Lorem ipsum dolor sit amet, consectetur adupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p> -->
               </div>
 
@@ -369,7 +369,7 @@
             <div class="card card__third">
                 <div class="card-body">
                     <img src="img/logo-2.png" class="img-fluid card__third__ftimg" alt="">
-                    <h5>Herramientas Gestión Comercial</h5>
+                    <!-- <h5>Herramientas Gestión Comercial</h5> -->
                     <!-- <p>Lorem ipsum dolor sit amet, consectetur adupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p> -->
                 </div>
 
@@ -593,13 +593,15 @@
     $(document).ready(function(){
       $('.slider-testimonials').slick({dots:true,autoplay: true,autoplaySpeed: 4000,  });
       $('.featured--hero').slick({ arrows:false,  dots:true });
-      $('.page-scroll').bind('click', function(event) {
-          var $anchor = $(this);
-          $('html, body').stop().animate({
-              scrollTop: $($anchor.attr('href')).offset().top + '60'
-          }, 1500, 'easeInOutExpo');
-          event.preventDefault();
-      });
+      // $('.page-scroll').bind('click', function(event) {
+      //     var $anchor = $(this);
+      //     $('html, body').stop().animate({
+      //         scrollTop: $($anchor.attr('href')).offset().top + '60'
+      //     }, 1500, 'easeInOutExpo');
+      //     event.preventDefault();
+      //     $("html, body").animate({ scrollTop: $('#services').offset().top }, 1000);
+      //
+      // });
     });
   </script>
 
