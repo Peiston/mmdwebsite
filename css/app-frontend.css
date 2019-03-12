@@ -7,7 +7,7 @@
 
 .section-productos{background: #343a40}
 
-.section-about{background: #343a40}
+.section-about{background: #343a40; padding-bottom: 30vh}
 
 .text-primary{color:#00B0F0!important}
 
@@ -79,4 +79,5 @@ bottom:0; background: rgba(0,0,0,.3); z-index: 3;}
 .slider-testimonials__img-wrap img{display: inline-block}
 .slick-dots li button:before{font-size: 40px;}
 
+.section-about p{font-size: 18px!important;}
 .section-about  a{color: #fff}
