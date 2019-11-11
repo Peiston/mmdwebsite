@@ -51,6 +51,9 @@ ga('send', 'pageview');
             <a class="nav-link page-scroll" href="#success">Éxitos</a>
           </li>
           <li class="nav-item">
+            <a class="nav-link" href="https://www.maxmaxdata.com/blog/">Blog</a>
+          </li>
+          <li class="nav-item">
             <a class="nav-link page-scroll" href="#contact">Contacto</a>
           </li>
         </ul>
@@ -660,13 +663,13 @@ ga('send', 'pageview');
       $('.featured--hero').slick({ arrows:false,  dots:true,  autoplay: true,
   autoplaySpeed: 3000 });
 
-            $("nav").find("a").click(function(e) {
+            $(".page-scroll").click(function(e) {
               e.preventDefault();
               var section = $(this).attr("href");
               $("html, body").animate({
                   scrollTop: $(section).offset().top - 120
               });
-          });
+            });
 
     });
   </script>
