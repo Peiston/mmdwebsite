@@ -16,7 +16,11 @@
 
 /* .card{background: #f09} */
 
-
+.navbar-brand{padding: 0; font-size: 15px;;}
+.b--brand{
+  max-width: 100px;
+}
+.b--brand img{width: 100%;;}
 /* hero section */
 .featured--hero{
   position: relative;
@@ -39,7 +43,7 @@
 .featured--hero__overlay-featured{position: absolute; left: 0; top: 0; right: 0;
 bottom:0; background: rgba(0,0,0,.3); z-index: 3;}
 
-.hero-slider{background: #f00;}
+/* .hero-slider{background: #f00;} */
 
 .hd{ margin-bottom: 40px}
 .hd__title{color:#5a5a5a; font-size: 55px; }

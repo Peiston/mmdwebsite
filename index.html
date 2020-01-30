@@ -31,8 +31,10 @@ ga('send', 'pageview');
   </head>
   <body>
     <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-      <img src="img/maxmaxdata_logo-17_100.png" alt="">
-      <a class="navbar-brand" href="#">Maxmaxdata - Smart Data y Profesionalización</a>
+      <div class="b--brand">
+        <img src="img/maxmaxdata_logo.png" alt="">
+      </div>
+      <a class="navbar-brand" href="#">maxmaxdata, <span class="text-primary">be</span> data</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -653,15 +655,16 @@ ga('send', 'pageview');
 
 
 <!-- SCRIPTS MARAVILLOSOS -->
+<script src="https://code.jquery.com/jquery-3.1.0.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <script type="text/javascript" src="js/slick.js"></script>
 <script type="text/javascript" src="js/jquery.easing.min.js"></script>
 <script type="text/javascript">
     $(document).ready(function(){
       $('.slider-testimonials').slick({dots:true,autoplay: true,autoplaySpeed: 4000,  });
-      $('.featured--hero').slick({ arrows:false,  dots:true,  autoplay: true,
-  autoplaySpeed: 3000 });
+      $('.featured--hero').slick({ arrows:false,  dots:true,  autoplay: true, autoplaySpeed: 3000 });
 
             $(".page-scroll").click(function(e) {
               e.preventDefault();
